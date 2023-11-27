@@ -101,7 +101,7 @@ AntiVelocity VerticalExplosion 0.0
 AntiVelocity Mode Reverse
 AntiVelocity AAC5.2.0-Attack-Only true
 AntiVelocity Chance 100.0
-AntiVelocity ReverseStrength 1.0
+AntiVelocity ReverseStrength 0.94
 AntiVelocity SmoothReverseStrength 0.05
 AntiVelocity AACPushXZReducer 2.0
 AntiVelocity AACPushYReducer true
@@ -161,7 +161,7 @@ AutoHeal SmartTimeout-Pot 500
 AutoHeal InvSpoof-Pot false
 AutoHeal InvDelay-Pot 500
 AutoHeal NoCombat-Pot false
-AutoHeal Custom-Pitch-Pot true
+AutoHeal Custom-Pitch-Pot false
 AutoHeal Angle-Pot 90.0
 AutoHeal Debug-Pot false
 AutoHeal AutoSoup false
@@ -493,13 +493,13 @@ KillAura Cooldown-Check false
 KillAura Click-Only false
 KillAura MaxCPS 13
 KillAura MinCPS 9
-KillAura Rotation-Range 4.83
+KillAura Rotation-Range 5.2
 KillAura Range 3.0
 KillAura RotationMode HvH
 KillAura MaxTurnSpeed 147.66
 KillAura MinTurnSpeed 132.19
 KillAura Angle-Tick 14
-KillAura NoInvAttack true
+KillAura NoInvAttack false
 KillAura StopSprint false
 KillAura No-Walls true
 KillAura Random false
@@ -534,8 +534,8 @@ LagBack Flight-LagBack false
 LagBack KillAura-WorldChange true
 LagBack TPAura-WorldChange true
 LagBack Flight-WorldChange true
-LagBack Speed-WorldChange false
-LagBack Speed-LagBack false
+LagBack Speed-WorldChange true
+LagBack Speed-LagBack true
 LagBack LongJump-LagBack true
 LagBack BowLongJump-LagBack true
 LagBack toggle true
@@ -567,7 +567,7 @@ LongJump Pearl-Timer 1.0
 LongJump AutoDisable false
 LongJump FakeDamage false
 LongJump FakeY false
-LongJump ViewBobbing false
+LongJump ViewBobbing true
 LongJump BobbingAmount 0.1
 LongJump toggle false
 LongJump bind B
@@ -668,7 +668,7 @@ Parkour toggle false
 Parkour bind NONE
 Phase Mode FullBlock
 Phase toggle false
-Phase bind P
+Phase bind NONE
 PingSpoofer MaxDelay 250
 PingSpoofer MinDelay 200
 PingSpoofer toggle false
@@ -720,7 +720,7 @@ SafeWalk bind NONE
 Scaffold EnableTower true
 Scaffold TowerMove true
 Scaffold TowerMode Float
-Scaffold TowerTimer 1.04
+Scaffold TowerTimer 1.0
 Scaffold JumpMotion 0.42
 Scaffold JumpDelay 0
 Scaffold StableMotion 0.41982
@@ -754,7 +754,7 @@ Scaffold ExtraClick-MaxCPS 7
 Scaffold ExtraClick-MinCPS 3
 Scaffold WatchdogYaw 180
 Scaffold WatchdogPitch 84
-Scaffold Timer 1.04
+Scaffold Timer 1.0
 Scaffold Place-SlowDown false
 Scaffold Speed-Multiplier 0.8
 Scaffold SlowDown false
@@ -806,7 +806,7 @@ ServerCrasher bind NONE
 SilentSneak Mode Normal
 SilentSneak toggle false
 SilentSneak bind NONE
-Speed Type Watchdog
+Speed Type Verus
 Speed NCP-Mode BHop
 Speed AAC-Mode 4Hop
 Speed Watchdog-Mode Custom
@@ -852,12 +852,12 @@ Speed NoBob false
 Speed FakeY false
 Speed toggle false
 Speed bind X
-Spider Mode Simple
+Spider Mode Jump
 Spider ClipMode Jump
 Spider CheckerClimbMotion 0.0
 Spider VerusClimbSpeed 0.2
 Spider toggle false
-Spider bind NONE
+Spider bind H
 Sprint Multi true
 Sprint Silent true
 Sprint Rotations false
@@ -910,7 +910,7 @@ Timer Speed 1.04
 Timer OnMove true
 Timer AutoDisable false
 Timer toggle false
-Timer bind X
+Timer bind NONE
 TriggerBot Cooldown-Check false
 TriggerBot MaxCPS 12
 TriggerBot MinCPS 10
