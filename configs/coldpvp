@@ -82,7 +82,7 @@ AntiFrozen toggle true
 AntiFrozen bind NONE
 AntiHunger toggle false
 AntiHunger bind NONE
-AntiObsidian toggle false
+AntiObsidian toggle true
 AntiObsidian bind NONE
 AntiSuffocation Mode Legit
 AntiSuffocation BreakPosition Normal
@@ -102,7 +102,7 @@ AntiVelocity Vertical 0.0
 AntiVelocity Explosion-Mode Cancel
 AntiVelocity AAC5.2.0-Attack-Only true
 AntiVelocity Chance 100.0
-AntiVelocity ReverseStrength 0.92
+AntiVelocity ReverseStrength 1.0
 AntiVelocity SmoothReverseStrength 0.05
 AntiVelocity AACPushXZReducer 2.0
 AntiVelocity AACPushYReducer true
@@ -177,7 +177,7 @@ AutoRespawn bind NONE
 AutoTool toggle true
 AutoTool bind NONE
 BackTrack MaxCachedPositions 10
-BackTrack toggle true
+BackTrack toggle false
 BackTrack bind NONE
 Blink Pulse true
 Blink C0FCancel false
@@ -267,7 +267,7 @@ Disabler Boat false
 Disabler Latest-Verus false
 Disabler Verus-Fly true
 Disabler Verus-Semi false
-Disabler Verus-Combat true
+Disabler Verus-Combat false
 Disabler Verus-Scaffold true
 Disabler Gwen-Combat false
 Disabler Spartan-Combat false
@@ -441,7 +441,7 @@ Flight FakeNoMove false
 Flight LagCheck false
 Flight FakeDamage false
 Flight FakeY false
-Flight ViewBobbing true
+Flight ViewBobbing false
 Flight BobbingAmount 0.1
 Flight toggle false
 Flight bind F
@@ -485,8 +485,8 @@ KillAura Cooldown-Check false
 KillAura Click-Only false
 KillAura MaxCPS 13
 KillAura MinCPS 7
-KillAura Rotation-Range 6.0
-KillAura Range 5.2
+KillAura Rotation-Range 4.5
+KillAura Range 3.0
 KillAura RotationMode HvH
 KillAura MaxTurnSpeed 147.66
 KillAura MinTurnSpeed 132.19
@@ -543,11 +543,12 @@ LongJump VerusDmg-Timer 0.21
 LongJump Pearl-Boost 4.25
 LongJump Pearl-Height 0.42
 LongJump Pearl-Timer 1.0
+LongJump VerusHigh-Height 1.6
 LongJump LagCheck true
 LongJump AutoDisable false
 LongJump FakeDamage false
 LongJump FakeY false
-LongJump ViewBobbing true
+LongJump ViewBobbing false
 LongJump BobbingAmount 0.1
 LongJump toggle false
 LongJump bind B
@@ -794,7 +795,7 @@ Speed Kauri-Mode LowHop
 Speed Intave-Mode Hop
 Speed Spectre-Mode BHop
 Speed Other-Mode YPort
-Speed Verus-Mode Hop
+Speed Verus-Mode LowHop
 Speed Vulcan-Mode YPort
 Speed Matrix-Mode Hop
 Speed UseTimer false
@@ -867,7 +868,7 @@ Stealer ChestTitle false
 Stealer toggle false
 Stealer bind NONE
 Step Mode Verus
-Step Height 1.0
+Step Height 6.0
 Step JumpHeight 0.42
 Step Delay 150
 Step UseTimer true
