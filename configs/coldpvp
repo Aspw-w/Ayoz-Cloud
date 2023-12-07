@@ -96,7 +96,7 @@ AntiTeams ArmorColor false
 AntiTeams ArmorIndex 3
 AntiTeams toggle false
 AntiTeams bind NONE
-AntiVelocity Mode Reverse
+AntiVelocity Mode Cancel
 AntiVelocity Horizontal 0.0
 AntiVelocity Vertical 0.0
 AntiVelocity Explosion-Mode Cancel
@@ -154,9 +154,9 @@ AutoHeal Heal-Pot true
 AutoHeal Utility-Pot true
 AutoHeal Smart-Pot true
 AutoHeal SmartTimeout-Pot 500
-AutoHeal InvSpoof-Pot false
+AutoHeal InvSpoof-Pot true
 AutoHeal InvDelay-Pot 500
-AutoHeal NoCombat-Pot true
+AutoHeal NoCombat-Pot false
 AutoHeal Custom-Pitch-Pot false
 AutoHeal Angle-Pot 90.0
 AutoHeal Debug-Pot false
@@ -169,7 +169,7 @@ AutoHeal Bowl-Soup Drop
 AutoHeal toggle true
 AutoHeal bind NONE
 AutoProjectile WaitForBowAimAssist true
-AutoProjectile toggle false
+AutoProjectile toggle true
 AutoProjectile bind NONE
 AutoRespawn Instant true
 AutoRespawn toggle false
@@ -187,7 +187,7 @@ Blink bind NONE
 BowAura Silent true
 BowAura ThroughWalls false
 BowAura Priority Direction
-BowAura toggle false
+BowAura toggle true
 BowAura bind NONE
 BowJump Boost 0.96
 BowJump Height 0.58
@@ -379,10 +379,10 @@ FastBridge toggle false
 FastBridge bind NONE
 FastEat Mode CustomDelay
 FastEat NoMove false
-FastEat CustomDelay 0
+FastEat CustomDelay 4
 FastEat CustomSpeed 25
 FastEat CustomTimer 1.0
-FastEat toggle false
+FastEat toggle true
 FastEat bind NONE
 FastLadder Mode Vanilla
 FastLadder UpSpeed 0.3
@@ -483,9 +483,9 @@ KeepSprint toggle false
 KeepSprint bind NONE
 KillAura Cooldown-Check false
 KillAura Click-Only false
-KillAura MaxCPS 13
-KillAura MinCPS 7
-KillAura Rotation-Range 4.5
+KillAura MaxCPS 14
+KillAura MinCPS 8
+KillAura Rotation-Range 3.0
 KillAura Range 3.0
 KillAura RotationMode HvH
 KillAura MaxTurnSpeed 147.66
@@ -500,7 +500,7 @@ KillAura Multi-Packet 5
 KillAura NoHitCheck false
 KillAura MovementFix None
 KillAura Priority Distance
-KillAura TargetMode Single
+KillAura TargetMode Switch
 KillAura Swing Full
 KillAura Particle Vanilla
 KillAura Sharpness true
@@ -868,7 +868,7 @@ Stealer ChestTitle false
 Stealer toggle false
 Stealer bind NONE
 Step Mode Verus
-Step Height 6.0
+Step Height 3.0
 Step JumpHeight 0.42
 Step Delay 150
 Step UseTimer true

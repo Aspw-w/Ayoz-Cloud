@@ -265,7 +265,7 @@ Disabler Jump false
 Disabler BlockPlacement false
 Disabler Boat false
 Disabler Latest-Verus false
-Disabler Verus-Fly true
+Disabler Verus-Fly false
 Disabler Verus-Semi false
 Disabler Verus-Combat false
 Disabler Verus-Scaffold true
@@ -568,7 +568,7 @@ Manager Sort true
 Manager ThrowGarbage true
 Manager Armor true
 Manager NoCombat false
-Manager ItemDelay 1445
+Manager ItemDelay 820
 Manager OnlySwordWeapon false
 Manager NBTGoal NONE
 Manager NBTItemNotGarbage true

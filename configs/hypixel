@@ -698,9 +698,9 @@ ResetVL bind NONE
 SafeWalk AirSafe false
 SafeWalk toggle false
 SafeWalk bind NONE
-Scaffold EnableTower false
+Scaffold EnableTower true
 Scaffold TowerMove true
-Scaffold TowerMode ConstantMotion
+Scaffold TowerMode Watchdog
 Scaffold TowerTimer 1.0
 Scaffold JumpMotion 0.42
 Scaffold JumpDelay 0
