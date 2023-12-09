@@ -27,13 +27,6 @@ AntiAFK Rotate true
 AntiAFK Swing true
 AntiAFK toggle false
 AntiAFK bind NONE
-AntiBlind Confusion true
-AntiBlind Pumpkin true
-AntiBlind Fire true
-AntiBlind Scoreboard false
-AntiBlind Boss-Health false
-AntiBlind toggle true
-AntiBlind bind NONE
 AntiBots CzechMatrix false
 AntiBots PingCheck true
 AntiBots GamemodeCheck true
@@ -513,7 +506,6 @@ KillAura ToggleFreeLook false
 KillAura FOV 180.0
 KillAura FailRate 0.0
 KillAura LimitedMultiTargets 6
-KillAura HandEffect true
 KillAura WaterParticles true
 KillAura Rounded-ESP true
 KillAura Circle false
@@ -543,6 +535,7 @@ LongJump VerusDmg-Timer 1.0
 LongJump Pearl-Boost 4.25
 LongJump Pearl-Height 0.42
 LongJump Pearl-Timer 1.0
+LongJump VerusHigh-TimerBoost false
 LongJump VerusHigh-Height 10.0
 LongJump LagCheck true
 LongJump AutoDisable true
@@ -902,6 +895,13 @@ TriggerBot bind NONE
 Tweaks Sneak-Speed 0
 Tweaks toggle false
 Tweaks bind NONE
+VisualAbilities Confusion true
+VisualAbilities Pumpkin true
+VisualAbilities Fire true
+VisualAbilities Scoreboard false
+VisualAbilities Boss-Health false
+VisualAbilities toggle true
+VisualAbilities bind NONE
 VulcanEatCore Debug true
 VulcanEatCore toggle false
 VulcanEatCore bind NONE

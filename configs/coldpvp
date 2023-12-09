@@ -9,7 +9,7 @@ AimAssist toggle false
 AimAssist bind NONE
 AirJump toggle false
 AirJump bind NONE
-Animals toggle false
+Animals toggle true
 Animals bind NONE
 Annoy YawMove Spin
 Annoy PitchMode Down
@@ -27,13 +27,6 @@ AntiAFK Rotate true
 AntiAFK Swing true
 AntiAFK toggle false
 AntiAFK bind NONE
-AntiBlind Confusion true
-AntiBlind Pumpkin true
-AntiBlind Fire true
-AntiBlind Scoreboard false
-AntiBlind Boss-Health false
-AntiBlind toggle true
-AntiBlind bind NONE
 AntiBots CzechMatrix false
 AntiBots PingCheck true
 AntiBots GamemodeCheck true
@@ -156,7 +149,7 @@ AutoHeal Smart-Pot true
 AutoHeal SmartTimeout-Pot 500
 AutoHeal InvSpoof-Pot true
 AutoHeal InvDelay-Pot 500
-AutoHeal NoCombat-Pot false
+AutoHeal NoCombat-Pot true
 AutoHeal Custom-Pitch-Pot false
 AutoHeal Angle-Pot 90.0
 AutoHeal Debug-Pot false
@@ -485,11 +478,11 @@ KillAura Cooldown-Check false
 KillAura Click-Only false
 KillAura MaxCPS 14
 KillAura MinCPS 8
-KillAura Rotation-Range 3.0
+KillAura Rotation-Range 4.78
 KillAura Range 3.0
 KillAura RotationMode HvH
-KillAura MaxTurnSpeed 147.66
-KillAura MinTurnSpeed 132.19
+KillAura MaxTurnSpeed 140.63
+KillAura MinTurnSpeed 120.94
 KillAura Angle-Tick 14
 KillAura NoInvAttack false
 KillAura StopSprint false
@@ -500,7 +493,7 @@ KillAura Multi-Packet 5
 KillAura NoHitCheck false
 KillAura MovementFix None
 KillAura Priority Distance
-KillAura TargetMode Switch
+KillAura TargetMode Single
 KillAura Swing Full
 KillAura Particle Vanilla
 KillAura Sharpness true
@@ -513,7 +506,6 @@ KillAura ToggleFreeLook false
 KillAura FOV 180.0
 KillAura FailRate 0.0
 KillAura LimitedMultiTargets 6
-KillAura HandEffect true
 KillAura WaterParticles true
 KillAura Rounded-ESP true
 KillAura Circle false
@@ -543,6 +535,7 @@ LongJump VerusDmg-Timer 0.21
 LongJump Pearl-Boost 4.25
 LongJump Pearl-Height 0.42
 LongJump Pearl-Timer 1.0
+LongJump VerusHigh-TimerBoost false
 LongJump VerusHigh-Height 1.6
 LongJump LagCheck true
 LongJump AutoDisable false
@@ -587,7 +580,7 @@ Manager SortSlot-8 Block
 Manager SortSlot-9 Potion
 Manager toggle false
 Manager bind NONE
-Mobs toggle false
+Mobs toggle true
 Mobs bind NONE
 NoFall Type Packet
 NoFall Edit-Mode Default
@@ -868,7 +861,7 @@ Stealer ChestTitle false
 Stealer toggle false
 Stealer bind NONE
 Step Mode Verus
-Step Height 3.0
+Step Height 4.0
 Step JumpHeight 0.42
 Step Delay 150
 Step UseTimer true
@@ -902,6 +895,13 @@ TriggerBot bind NONE
 Tweaks Sneak-Speed 0
 Tweaks toggle false
 Tweaks bind NONE
+VisualAbilities Confusion true
+VisualAbilities Pumpkin true
+VisualAbilities Fire true
+VisualAbilities Scoreboard false
+VisualAbilities Boss-Health false
+VisualAbilities toggle true
+VisualAbilities bind NONE
 VulcanEatCore Debug true
 VulcanEatCore toggle false
 VulcanEatCore bind NONE
