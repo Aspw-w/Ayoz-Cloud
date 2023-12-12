@@ -92,7 +92,7 @@ AntiTeams bind NONE
 AntiVelocity Mode GrimReverse
 AntiVelocity Horizontal 0.0
 AntiVelocity Vertical 0.0
-AntiVelocity Explosion-Mode Cancel
+AntiVelocity Explosion-Mode None
 AntiVelocity AAC5.2.0-Attack-Only true
 AntiVelocity Chance 100.0
 AntiVelocity ReverseStrength 1.0
@@ -120,8 +120,8 @@ AntiWaterPush Lava true
 AntiWaterPush toggle false
 AntiWaterPush bind NONE
 AutoAuth Double-Register true
-AutoAuth Delay 5000
-AutoAuth toggle false
+AutoAuth Delay 2500
+AutoAuth toggle true
 AutoAuth bind NONE
 AutoClicker Cooldown-Check false
 AutoClicker Left true
@@ -251,7 +251,7 @@ Disabler Silent-Accept false
 Disabler ShotBow false
 Disabler Funcraft-Staff false
 Disabler BlockDrop false
-Disabler Grim false
+Disabler Grim true
 Disabler Hycraft false
 Disabler Inventory-Spoof false
 Disabler Jump false
@@ -328,7 +328,7 @@ Disabler StrafeDisablerPacketAmount 70
 Disabler Timer1 true
 Disabler Timer2 false
 Disabler Debug false
-Disabler toggle false
+Disabler toggle true
 Disabler bind NONE
 ESP Tags true
 ESP Health-Bar true
@@ -346,11 +346,11 @@ EntityJump Delay 200
 EntityJump AutoDestroy false
 EntityJump toggle false
 EntityJump bind NONE
-ExtendedPosition Only-KillAura false
+ExtendedPosition Only-KillAura true
 ExtendedPosition Only-Player true
 ExtendedPosition ResetOnVelocity true
 ExtendedPosition ResetOnLagging true
-ExtendedPosition toggle false
+ExtendedPosition toggle true
 ExtendedPosition bind NONE
 FakeGhostBlock Duration 1000
 FakeGhostBlock toggle false
@@ -476,11 +476,11 @@ KeepSprint toggle false
 KeepSprint bind NONE
 KillAura Cooldown-Check false
 KillAura Click-Only false
-KillAura MaxCPS 11
-KillAura MinCPS 8
-KillAura Rotation-Range 4.5
+KillAura MaxCPS 17
+KillAura MinCPS 14
+KillAura Rotation-Range 5.48
 KillAura Range 3.0
-KillAura RotationMode HvH
+KillAura RotationMode Zero
 KillAura MaxTurnSpeed 120.0
 KillAura MinTurnSpeed 100.0
 KillAura Angle-Tick 1

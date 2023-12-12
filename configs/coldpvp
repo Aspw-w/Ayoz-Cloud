@@ -861,10 +861,10 @@ Stealer ChestTitle false
 Stealer toggle false
 Stealer bind NONE
 Step Mode Verus
-Step Height 4.0
+Step Height 2.0
 Step JumpHeight 0.42
 Step Delay 150
-Step UseTimer true
+Step UseTimer false
 Step toggle true
 Step bind NONE
 TPAura CPS 6
